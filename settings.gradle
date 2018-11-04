@@ -1,0 +1,4 @@
+include ':gamecmd', ':app', ':cropper_', ':easeui_', ':WaterWaveProgress_'
+project(':cropper_').projectDir = new File('cropper')
+project(':easeui_').projectDir = new File('easeui')
+project(':WaterWaveProgress_').projectDir = new File('WaterWaveProgress')

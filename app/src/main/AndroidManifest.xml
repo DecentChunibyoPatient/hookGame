@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="app.wqg.hookgame2">
+
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <!-- 模块描述 -->
+        <meta-data
+            android:name="xposeddescription"
+            android:value="hookGames" />
+        <!-- 最低版本号 -->
+        <meta-data
+            android:name="xposedminversion"
+            android:value="47" />
+        <!-- 适用于微信的版本号-->
+
+
+    </application>
+    <permission
+        android:name="app.custom.permission"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="app.custom.permission" />
+</manifest>

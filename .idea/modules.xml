@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WaterWaveProgress/WaterWaveProgress_.iml" filepath="$PROJECT_DIR$/WaterWaveProgress/WaterWaveProgress_.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cropper/cropper_.iml" filepath="$PROJECT_DIR$/cropper/cropper_.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easeui/easeui_.iml" filepath="$PROJECT_DIR$/easeui/easeui_.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gamecmd/gamecmd.iml" filepath="$PROJECT_DIR$/gamecmd/gamecmd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hookGame.iml" filepath="$PROJECT_DIR$/hookGame.iml" />
+    </modules>
+  </component>
+</project>
